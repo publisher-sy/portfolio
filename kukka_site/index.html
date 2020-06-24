@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>꾸까 | 꽃이 필요한 순간, 전국 꽃배달 서비스</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+<body>
+	<header class="wrap_size">
+		<div class="up_modal wrap_size">
+			<a href="#">당신의 회사는, <span class="yellow">생일</span>을 챙겨주나요? <span class="yellow">생일대장</span> by kukka</a>
+			<button class="up_modal_close">x</button>
+		</div>
+		<div class="log_search_wrap con_size m_hidden">
+			<nav class="clear">
+				<ul class="login">
+					<li><a href="#">꾸까 스토리</a></li>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입<span class="dark_green">(회원가입하시면 1000포인트를 드려요)</span></a></li>
+				</ul>
+				<ul class="search">
+					<li><a href="#" class="search_icon"></a></li>
+					<li><a href="#" class="cart_icon"></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="m_logo_wrap w_hidden">
+			<div class="m_menu"><a href="#"></a></div>
+			<h1 class="m_logo">모바일 로고<a href="#"></a></h1>
+			<div class="m_search_cart"><a href="#" class="search_icon"></a><a href="#" class="cart_icon"></a></div>
+		</div>
+		<div class="logo_nav_wrap wrap_size m_hidden">
+			<div class="con_size">
+				<h1 class="logo">로고<a href="#"></a></h1>
+				<nav class="main_nav_wrap clear">
+					<ul class="gnb">
+						<li><a href="#">기업제휴</a>
+							<ul class="sub_nav">
+								<li><a href="#">기업 꽃 서비스</a></li>
+								<li><a href="#">생일대장 by kukka</a></li>
+							</ul>
+						</li>
+						<li><a href="#">이벤트</a></li>
+						<li><a href="#">소품샵</a></li>
+						<li><a href="#">플라워레슨</a></li>
+						<li><a href="#">파머스마켓</a></li>				
+						<li><a href="#">당일배송</a></li>
+						<li><a href="#">꽃다발</a></li>
+						<li><a href="#">꽃 정기구독</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="m_nav_wrap w_hidden">
+		<div class="m_nav_white">
+			<div class="m_login_wrap">
+				<ul>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">꾸까스토리</a></li>
+				</ul>
+				<div><a href="#" class="cart_icon"></a></div>
+			</div>
+			<div class="m_nav">
+				<form>
+					<input type="text" placeholder="검색어를 입력해주세요.">
+					<button></button>
+				</form>
+				<nav>
+					<ul>
+						<li><a href="#">꽃 정기구독</a></li>
+						<li><a href="#">꽃다발</a></li>
+						<li><a href="#">당일배송</a></li>
+						<li><a href="#">파머스마켓</a></li>
+						<li><a href="#">플라워 레슨</a></li>
+						<li><a href="#">소품샵</a></li>
+						<li><a href="#">이벤트</a></li>
+						<li><a href="#">배경화면</a></li>
+						<li>
+							<a href="#">기업제휴</a>
+							<ul>
+								<li><a href="#">기업 꽃 서비스</a></li>
+								<li><a href="#">생일대장 by kukka</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="m_nav_cover">
+			<a href="#"></a>
+		</div>
+	</div>
+	<div class="gnb_cover wrap_size m_hidden"></div>
+	<div class="modal_cover wrap_size">
+		<div class="search_pop">
+			<h2>검색<a href="#"></a></h2>
+			<div class="search_wrap">
+				<input type="text" placeholder="search"><button></button>
+			</div>
+		</div>
+		<div class="cart_pop">
+			<h2>장바구니<a href="#"></a></h2>
+			<div></div>
+		</div>
+	</div>
+	<div class="slide_wrap wrap_size pivot_slider">
+		<ul class="slide clear">
+			<li><a href="#">1<img class="w_hidden" src="images/mainbanner1M.png" alt="mainbannerM1"><img class="m_hidden" src="images/mainbanner1W.png" alt="mainbannerW1">
+			</a></li>
+			<li><a href="#">2<img class="w_hidden" src="images/mainbanner2M.png" alt="mainbannerM2"><img class="m_hidden" src="images/mainbanner2W.jpg" alt="mainbannerW2"></a></li>
+			<li><a href="#">3<img class="w_hidden" src="images/mainbanner3M.png" alt="mainbannerM3"><img class="m_hidden" src="images/mainbanner3W.png" alt="mainbannerW3"></a></li>
+			<li><a href="#">4<img class="w_hidden" src="images/mainbanner4M.png" alt="mainbannerM4"><img class="m_hidden" src="images/mainbanner4W.jpg" alt="mainbannerW4"></a></li>
+			<li><a href="#">5<img class="w_hidden" src="images/mainbanner5M.png" alt="mainbannerM5"><img class="m_hidden" src="images/mainbanner5W.jpg" alt="mainbannerW5"></a></li>
+			<li><a href="#">6<img class="w_hidden" src="images/mainbanner6M.png" alt="mainbannerM6"><img class="m_hidden" src="images/mainbanner6W.png" alt="mainbannerW6"></a></li>
+			<li><a href="#">7<img class="w_hidden" src="images/mainbanner7M.jpg" alt="mainbannerM7"><img class="m_hidden" src="images/mainbanner7W.jpg" alt="mainbannerW7"></a></li>
+		</ul>
+		<ul class="indicate clear">
+			<li class="active"><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+		</ul>
+		<div class="button_wrap">
+			<a href="#" class="prev"></a>
+			<a href="#" class="next"></a>
+		</div>
+	</div>
+	<div class="moblie_banner_wrap wrap_size w_hidden">
+		<a href="#">
+			<img src="images/mobile_banner.png" alt="moblie_banner">
+		</a>
+	</div>
+	<div class="subscription_wrap con_size">
+		<h2 class="content_title"><a href="#">
+			2주에 한 번, 매번 새로운 꽃 정기구독</a><a href="#"></a>
+			<span class="gray_bold">그 계절 가장 이쁜 꽃으로 행복을 채워드릴게요.</span>
+		</h2>
+		<div class="subscription">
+			<ul class="subscription_content">
+				<li>
+					<div class="item_big">
+						<a href="#"><img src="images/sub_banner1.png" alt="subscription_big_img1"></a>
+					</div>
+					<div class="item_small">
+						<div class="small_img m_hidden">
+							<a href="#"><img src="images/sub_banner1s.png" alt="subscription_small_img1"></a>
+						</div>
+						<div class="small_txt">
+							<h3><a href="#">가벼운 S 꽃구독</a><br>17,900원</h3>
+							<p class="m_hidden">하늘하늘한 꽃송이가 팝콘처럼 팡팡 터지는 금어초를 메인으로, 크림 핑크빛 사랑스러움을 담은 미니부케를 준비했어요.</p>
+							<p><span class="heart"></span>193</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item_big">
+						<a href="#"><img src="images/sub_banner2.png" alt="subscription_big_img2"></a>
+					</div>
+					<div class="item_small">
+						<div class="small_img m_hidden">
+						<a href="#"><img src="images/sub_banner2s.png" alt="subscription_small_img2"></a>
+						</div>
+						<div class="small_txt">
+							<h3><a href="#">딱좋은 M 꽃구독</a><br>26,900원</h3>
+							<p class="m_hidden">상큼한 오렌지빛 오퍼스 장미와 꿀벌이 날아들 것만 같은 귀여운 마가렛까지, 봄을 닮은 산뜻한 꽃다발로 일상에 상큼함과 달콤함을 채워드릴게요.</p>
+							<p><span class="heart"></span>74</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item_big">
+						<a href="#"><img src="images/sub_banner3.png" alt="subscription_big_img3"></a>
+					</div>
+					<div class="item_small">
+						<div class="small_img m_hidden">
+						<a href="#"><img src="images/sub_banner3s.png" alt="subscription_small_img3"></a>
+						</div>
+						<div class="small_txt">
+							<h3><a href="#">풍성한 L 꽃구독</a><br>34,900원</h3>
+							<p class="m_hidden">1년 중 아주 잠깐만 우리 곁에 머무는 꽃 작약. 봄의 가장 큰 기쁨인 작약을 메인으로 잡은 이 꽃다발은 꼭 곁에 두셔야 해요.</p>
+							<p><span class="heart"></span> 192</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="bottom_arrow_wrap clear">
+				<li><a href="#" class="prev"></a></li>
+				<li><span class="dark_blue">1</span>/3</li>
+				<li><a href="#" class="next"></a></li>
+			</ul>
+		</div>	
+	</div>
+	<div class="farmers_wrap wrap_size">
+		<div class="product_wrap con_size">
+			<h2 class="content_title"><a href="#">파머스 마켓</a><a href="#"></a></h2>
+			<p>원하는 꽃을 반 단~한 단씩 고르고 싶고, 선물 포장은 필요 없다면<br class="m_hidden">
+			파머스 마켓으로 오세요. 당신을 위한 kukka의 작은 꽃시장입니다.</p>	
+			<ul data-name="farmers" class="content_product farmers">
+					<li>
+						<div class="product"><a href="#"><img src="images/farmers01.jpg" alt="farmers_product_img2"></a></div>
+						<div class="detail">
+							<a href="#"><p>진보라 튤립 (수입/일 10개 한정)</p></a>
+							<p>19,900원<br><a href="#"><span class="heart"></span><span>35</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/farmers02.jpg" alt="farmers_product_img2"></a><div class="sale_10"></div></div>
+						<div class="detail">
+							<a href="#"><p>자나장미 & 유러피안 화병</p></a>
+							<p><span class="discount">34700&nbsp;</span>&nbsp;&nbsp;31,200원<br><a href="#"><span class="heart"></span><span>10</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/farmers03.jpg" alt="farmers_product_img3"></a></div>
+						<div class="detail">
+							<a href="#"><p>애니시다</p></a>
+							<p>13,900원<br><a href="#"><span class="heart"></span><span>0</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/farmers04.jpg" alt="farmers_product_img4"></a></div>
+						<div class="detail">
+							<a href="#"><p>망고 튤립 (수입/일 10개 한정)</p></a>
+							<p>19,900원<br><a href="#"><span class="heart"></span><span>0</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/farmers05.png" alt="farmers_product_img5"></a></div>
+						<div class="detail">
+							<a href="#"><p>레드 튤립 (수입/일 10개 한정)</p></a>
+							<p>19,900원<br><a href="#"><span class="heart"></span><span>38</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/farmers06.png" alt="farmers_product_img6"></a><div class="sale_10"></div></div>
+						<div class="detail">
+							<a href="#"><p>연핑크 스톡 & 디켄터 화병</p></a>
+							<p><span class="discount">26400&nbsp;</span>&nbsp;&nbsp;23,760원<br><a href="#"><span class="heart"></span><span>10</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/farmers07.png" alt="farmers_product_img7"></a>
+							<div class="sale_10"></div>
+						</div>
+						<div class="detail">
+							<a href="#"><p><strong class="yellow">[BEST] </strong>[Florist's Pick] 아침을 닮은 청초한 튤립세트</p></a>
+							<p><span class="discount">39800&nbsp;</span>&nbsp;&nbsp;35,820원<br><a href="#"><span class="heart"></span><span>13</span></a></p>
+						</div>
+					</li>
+			</ul>
+		</div>
+		<div data-name="farmers" class="list_button_wrap clear">
+			<a href="#" class="off prev"></a>
+			<a href="#" class="next"></a>
+		</div>
+	</div>
+	<div class="best_wrap wrap_size clear">
+		<div class="product_wrap con_size">
+			<h2 class="content_title"><a href="#">BEST 꽃다발</a><a href="#"></a></h2>
+			<ul data-name="best" class="content_product best">
+				<li>
+					<div class="product"><a href="#"><img src="images/best_thumb01.png" alt="best_product_img1"></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p><strong class="yellow">[BEST] </strong>따뜻한 봄이 물들은, 옐로화이트 프리지아</p></a>
+						<p>28,900원<br><a href="#"><span class="heart"></span><span>40</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/best_thumb02.png" alt="best_product_img2"></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p><strong class="yellow">[BEST] </strong>봄을 불러오는 산뜻한, 옐로우 튤립</p></a>
+						<p>27,900원<br><a href="#"><span class="heart"></span><span>40</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/best_thumb03.png" alt="best_product_img3">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>[어버이날] 부모님의 환한 미소를 책임질, 오렌지코랄 카네이션</p></a>
+						<p>45,900원<br><a href="#"><span class="heart"></span><span>41</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/best_thumb04.png" alt="best_product_img4">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>[어버이날] 클래식한 그 감성 그대로, 레드핑크 카네이션</p></a>
+						<p>45,900원<br><a href="#"><span class="heart"></span><span>28</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/best_thumb05.png" alt="best_product_img5">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p><strong class="yellow">[BEST] </strong>‘축복’의 꽃말이 담긴 캄파넬라부케</p></a>
+						<p>52,900원<br><a href="#"><span class="heart"></span><span>55</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/best_thumb06.jpg" alt="best_product_img6">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>해피엔딩을 전하는 로맨틱 핑크부케</p></a>
+						<p>52,900원<br><a href="#"><span class="heart"></span><span>49</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/best_thumb07.png" alt="best_product_img7">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>앤틱한 카푸치노 로즈부케</p></a>
+						<p>52,900원<br><a href="#"><span class="heart"></span><span>58</span></a></p>
+					</div>
+				</li>
+			</ul>	
+		</div>
+		<div data-name="best" class="list_button_wrap clear">
+			<a href="#" class="off prev"></a>
+			<a href="#" class="next"></a>
+		</div>
+	</div>
+	<div class="new_wrap wrap_size">
+		<div class="product_wrap con_size">
+			<h2 class="content_title"><a href="#">NEW 꽃다발</a><a href="#"></a></h2>
+			<ul data-name="new" class="content_product new clear">
+				<li>
+					<div class="product"><a href="#"><img src="images/new_thumb01.png" alt="new_product_img1">
+						<div class="sale_10"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>한 폭의 수채화를 담은, 부부젤라 장미</p></a>
+						<p><span class="discount">38900&nbsp;</span>&nbsp;&nbsp;34,900원<br><a href="#"><span class="heart"></span><span>21</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/new_thumb02.png" alt="new_product_img2">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p><strong class="yellow">[BEST] </strong>나비처럼 피어날, 나리 에디션</p></a>
+						<p>19,900원<br><a href="#"><span class="heart"></span><span>149</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/new_thumb03.png" alt="new_product_img3">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>코 끝을 간지럽히는, 라일락 에디션</p></a>
+						<p>52,900원<br><a href="#"><span class="heart"></span><span>82</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/new_thumb04.png" alt="new_product_img4">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>함께 맞는 봄, 스프링가든 에디션</p></a>
+						<p>29,900원<br><a href="#"><span class="heart"></span><span>0</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/new_thumb05.png" alt="new_product_img5">
+						<div class="sale_10"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>사랑으로 피어나는 꽃, 올포러브 장미</p></a>
+						<p><span class="discount">29900&nbsp;</span>&nbsp;&nbsp;26,900원<br><a href="#"><span class="heart"></span><span>53</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/new_thumb06.png" alt="new_product_img6">
+						<div class="sale_30"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p>오래도록 곁에 있을게요, 라벤더 스타티스</p></a>
+						<p><span class="discount">14900&nbsp;</span>&nbsp;&nbsp;9,900원<br><a href="#"><span class="heart"></span><span>17</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/new_thumb07.png" alt="new_product_img7">
+						<div class="delivery"></div></a>
+					</div>
+					<div class="detail">
+						<a href="#"><p><strong class="yellow">[BEST] </strong>4월의 탄생화, 벚꽃 바스켓</p></a>
+						<p>59,900원<br><a href="#"><span class="heart"></span><span>3</span></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="product"><a href="#"><img src="images/new_thumb08.png" alt="new_product_img8"></a><div class="delivery_overnight"></div></div>
+					<div class="detail">
+						<a href="#"><p>[어버이날] 더 큰 진심을 전해줄, 프리미엄 카네이션 바스켓</p></a>
+						<p>69,900원<br><a href="#"><span class="heart"></span><span>3</span></a></p>
+					</div>
+				</li>
+			</ul>	
+		</div>
+		<div data-name="new" class="list_button_wrap clear">
+			<a href="#" class="off prev"></a>
+			<a href="#" class="next"></a>
+		</div>
+	</div>
+	<div class="ect_wrap con_size clear">
+		<h2 class="content_title"><a href="#">꽃과 함께하면 좋은 아이템</a><a href="#"></a></h2>
+		<ul class="ect_list">
+			<li class="on"><a href="#">화병</a></li>
+			<li><a href="#">꽃가위</a></li>
+			<li><a href="#">굿즈</a></li>
+		</ul>
+		<ul class="ect clear">
+			<li class="vase product_wrap on">
+				<ul>
+					<li>
+						<div class="product"><a href="#"><img src="images/vase01.jpg" alt="vase_1"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>피오리 화병</p></a>
+							<p>10,900원<br><a href="#"><span class="heart"></span><span>42</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/vase02.jpg" alt="vase_2"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>디켄터 화병</p></a>
+							<p>12,900원<br><a href="#"><span class="heart"></span><span>28</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/vase03.jpg" alt="vase_3"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>페플럼 화병</p></a>
+							<p>17,900원<br><a href="#"><span class="heart"></span><span>15</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/vase04.jpg" alt="vase_4"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>하프화이트 화병</p></a>
+							<p>19,900원<br><a href="#"><span class="heart"></span><span>16</span></a></p>
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li class="scissors product_wrap">
+				<ul>
+					<li>
+						<div class="product"><a href="#"><img src="images/scissors01.jpg" alt="scissors_1"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>파울(PAUL) 꽃가위</p></a>
+							<p>17,900원<br><a href="#"><span class="heart"></span><span>38</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/scissors02.jpg" alt="scissors_2"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>사카겐 핑크 전지가위</p></a>
+							<p>37,900원<br><a href="#"><span class="heart"></span><span>19</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/scissors03.jpg" alt="scissors_3"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>치카마사 꽃가위(화이트)</p></a>
+							<p>27,900원<br><a href="#"><span class="heart"></span><span>20</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/scissors04.jpg" alt="scissors_4"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>치카마사 꽃가위(블루)</p></a>
+							<p>27,900원<br><a href="#"><span class="heart"></span><span>15</span></a></p>
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li class="goods product_wrap">
+				<ul>
+					<li>
+						<div class="product"><a href="#"><img src="images/goods01.jpg" alt="goods_1"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>아기새 루루 픽</p></a>
+							<p>3,500원<br><a href="#"><span class="heart"></span><span>28</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/goods02.jpg" alt="goods_2"></a>
+						</div>
+						<div class="detail">
+							<a href="#"><p>아기새 구구 픽</p></a>
+							<p>3,500원<br><a href="#"><span class="heart"></span><span>16</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/goods03.jpg" alt="goods_3"></a><div class="sale_30"></div>
+						</div>
+						<div class="detail">
+							<a href="#"><p>[꾸까단독 30%OFF] 아크원 지그재그 앞치마(롱)</p></a>
+							<p><span class="discount">62000&nbsp;</span>&nbsp;&nbsp;62,000원<br><a href="#"><span class="heart"></span><span>16</span></a></p>
+						</div>
+					</li>
+					<li>
+						<div class="product"><a href="#"><img src="images/goods04.jpg" alt="goods_4"></a><div class="sale_30"></div>
+						</div>
+						<div class="detail">
+							<a href="#"><p>[꾸까단독 30%OFF] 아크원 지그재그 앞치마(하프)</p></a>
+							<p><span class="discount">42000&nbsp;</span>&nbsp;&nbsp;29,400원<br><a href="#"><span class="heart"></span><span>14</span></a></p>
+						</div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="review_wrap clear">
+		<h2 class="con_size just_title">Review</h2>
+		<div class="review wrap_size">
+			<div class="double_quote1"></div>
+			<div class="double_quote2"></div>
+			<h3>넘 맘에 드는 리치장미</h3>
+			<p>매번 만들어진 다발만 주문하다가<br>처음으로 파머스마켓에서 주문해 봤는데<br>양도 풍성하고 꽃도 예뻐서 마음에 들어요.<br><br>직접 손질했더니 꽃과 더 친해진 기분이 드네요!</p>
+			<p>파머스마켓 고객 she***님 (11회 구매)</p>
+			<span>**실제 고객님이 후기로 올려주신 사진입니다.</span>
+		</div>
+	</div>
+	<div class="brandstory_wrap con_size">
+		<h2 class="just_title">Brand Story&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="gray_bold">우리의 브랜드 이야기</span></h2>
+		<div class="brandstory clear">
+			<div class="brand_img"><a href="#"></a></div>
+			<div class="txt_area">
+				<h3>꽃이 필요한 순간, 언제나 꾸까</h3>
+				<p>꽃 한 송이의 행복을 누구나 쉽게 누릴 수 있기를, <br>꾸까가 보내드리는 건 단지 꽃이 아니라 <br>'행복'이라는 사명감을 가지고 있어요. <br><br>꽃이 필요한 순간, 언제나 당신의 마음 속에 <br>'꽃배달'이 아닌 '꾸까'가 떠오르길 바랍니다.</p>
+				<button>더보기</button>
+			</div>
+		</div>
+	</div>
+	<div class="insta_banner_wrap clear">
+		<h2 class="just_title con_size">instagram @kukkakorea</h2>
+		<ul class="wrap_size clear">
+			<li><a href="#"><img src="images/insta1.jpg" alt="insta_img1"></a></li>
+			<li><a href="#"><img src="images/insta2.jpg" alt="insta_img2"></a></li>
+			<li><a href="#"><img src="images/insta3.jpg" alt="insta_img3"></a></li>
+			<li><a href="#"><img src="images/insta4.jpg" alt="insta_img4"></a></li>
+			<li><a href="#"><img src="images/insta5.jpg" alt="insta_img5"></a></li>
+			<li><a href="#"><img src="images/insta6.jpg" alt="insta_img6"></a></li>
+			<li><a href="#"><img src="images/insta7.jpg" alt="insta_img7"></a></li>
+			<li><a href="#"><img src="images/insta8.jpg" alt="insta_img8"></a></li>
+			<li><a href="#"><img src="images/insta9.jpg" alt="insta_img9"></a></li>
+			<li><a href="#"><img src="images/insta10.jpg" alt="insta_img10"></a></li>
+			<li><a href="#"><img src="images/insta11.jpg" alt="insta_img11"></a></li>
+			<li><a href="#"><img src="images/insta12.jpg" alt="insta_img12"></a></li>
+			<li><a href="#"><img src="images/insta13.jpg" alt="insta_img13"></a></li>
+		</ul>
+	</div>
+	<div class="contact">
+		<a href="#"></a>
+	</div>
+	<footer class="wrap_size clear">
+		<div class="con_size">
+			<div class="footer_logo_sns">
+				<div class="footer_logo"></div>
+				<ul class="sns">
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				<ul class="copy clear">
+					<li class="wid_dash"><a href="#">이용약관</a></li>
+					<li class="wid_dash"><a href="#">개인정보취급방침</a></li>
+					<li><a href="#">제휴안내</a></li>
+					<li class="dash">상호명: 꾸까(kukka) </li>
+					<li class="dash">사업자 등록번호: 264-81-32594 </li>
+					<li> 대표자: 박춘화<br></li>
+					<li class="dash">소재지: 서울시 서초구 남부순환로333길 10 kukka</li>
+					<li class="color888"><a href="#">기업공시</a><br></li>
+					<li>통신판매신고번호 2018-서울서초-1692</li>
+				</ul>
+			</div>
+			<ul class="qna">
+				<li class="faq"><a href="#">자주 묻는 질문</a><a href="#" class="right_arrow"></a></li>
+				<li class="question"><a href="#">1:1 문의하기</a><a href="#" class="right_arrow"></a></li>
+				<li><span>고객 센터 1661-1031</span><br class="m_hidden">( 평일 10:00 ~ 13:00, 14:00 ~ 18:00 )</li>
+				<li>마케팅 제휴 문의<br class="m_hidden"><a href="#" class="mail"></a><a href="#">flower@kukka.kr</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
