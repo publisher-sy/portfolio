@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" >
+	<title>오송이 | 꾸까(포트폴리오02)</title>
+	<link rel="stylesheet" href="css/workdetail.css">
+	<!-- 파비콘 -->
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<!-- 아이폰,갤럭시, 패드 적용안되면 지워버려 -->
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- 아이폰,갤럭시, 패드 적용안되면 지워버려 끝~~! -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script src="js/sub_custom.js"></script>
+</head>
+<body>
+	<header>
+		<div>
+			<a href="work01.html" class="prev_portfolio_btn"><img src="images/prev_btn_b.png" alt="이전버튼"></a>
+			<a href="work03.html" class="next_portfolio_btn"><img src="images/next_btn_b.png" alt="다음버튼"></a>
+			<a href="index.html" class="home_btn"><img src="images/logo_w.png" alt="홈버튼"></a>
+		</div>
+		<div class="main_title_wrap con_size clear">
+			<h1 class="kukka_color">KUKKA</h1>
+			<div class="device_img">
+				<img src="images/kukka_device.png" alt="디바이스별 적용 화면">
+				<ul class="cross_browsing clear">
+					<li><a href="#"><img src="images/internetexplorer_icon.png" alt="인터넷 익스플로러 이미지"></a></li>
+					<li><a href="#"><img src="images/chrome_icon.png" alt="크롬 이미지"></a></li>
+					<li><a href="#"><img src="images/firefox_icon.png" alt="파이어폭스 이미지"></a></li>
+					<li><a href="#"><img src="images/safari_icon.png" alt="사파리 이미지"></a></li>
+					<li><a href="#"><img src="images/opera_icon.png" alt="오페라 이미지"></a></li>
+				</ul>
+			</div>
+			<div class="summary_wrap">
+				<p><span class="kukka_color bold">'100% 퍼블리싱'</span>으로 <span class="kukka_color bold">'스와이프 기능'</span>을 구현한 <br class="t_hidden">KUKKA 메인페이지를 <span class="kukka_color bold">'반응형'</span>으로 구현했습니다.</p>
+				<div class="button_wrap">
+					<a href="../kukka_site/index.html" class="view_site kukka_bg">사이트 방문</a>
+					<a href="#code_wrap" class="view_key_code">핵심 코드보기</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="information_wrap">
+		<div class="color_and_font_wrap kukka_bg">
+			<div class="con_size clear">
+				<div class="color_wrap">
+					<h2>주요색상</h2>
+					<ul class="li_3">
+						<li>
+							<div class="color_box kukka_bg"></div>
+							<p>#ffdd00</p>
+						</li>
+						<li>
+							<div class="color_box c_aaaaaa"></div>
+							<p>#aaaaaa</p>
+							
+						</li>
+						<li>
+							<div class="color_box c_333333"></div>
+							<p>#333333</p>
+							
+						</li>
+					</ul>
+				</div>
+				<div class="font_wrap half_width_t">
+					<h2>사용 글꼴</h2>
+					<p class="source_sans_pro">
+						Source Sans Pro<br><span class="regular40">Source Sans Pro</span><br><span class="bold50">Source Sans Pro</span>
+					</p>
+					<p class="noto_sans_kr">
+						Noto Sans KR<br><span class="regular40">Noto Sans KR</span><br><span class="bold50">Noto Sans KR</span>
+					</p>
+				</div>
+			</div>	
+		</div>
+		<div class="img_keyword_wrap con_size">
+			<h2>이미지</h2>
+			<div class="img_wrap clear">
+				<div><img src="images/kukka_img1.jpg" alt="꾸까 무드보드 이미지_노란벽의 자전거"></div>
+				<div><img src="images/kukka_img2.jpg" alt="꾸까 무드보드 이미지_하얗고 포근한 수건"></div>
+				<div><img src="images/kukka_img3.jpg" alt="꾸까 무드보드 이미지_햇살이 드리우는 테이블에서 노란 꽃과 따뜻한 차"></div>
+			</div>
+			<div class="keyword_wrap">
+				<h2>키워드</h2>
+				<p>#따뜻함&nbsp;&nbsp;&nbsp;#포근함&nbsp;&nbsp;&nbsp;#사랑&nbsp;&nbsp;&nbsp;<br class="w_hidden">#산뜻한&nbsp;&nbsp;&nbsp;#밝음</p>
+			</div>
+		</div>
+	</section>
+	<section class="kukka_bg" id="code_wrap">
+		<div class="code_wrap con_size">
+			<h2>핵심 코드 <a href="#" class="view_all_code">코드 전체보기</a></h2>
+			<h3>1. 디바이스 크기에 따라 버튼/스와이프 동작 기능<button><img src="images/open_close_arrow.png" alt="아코디언메뉴 열림버튼화살표"></button></h3>
+			<div class="code_content clear">
+				<p>1.&nbsp;&nbsp;디바이스에 따라 드래그 및 터치 스와이프 기능을 실현하기 위해 e.clientX와 e.touches[0].clientX를 변수화 했습니다.<br><br>2.&nbsp;&nbsp;Math메서드를 사용하여 움직인 거리를 li.length로 나누고 나머지값을 반올림해 상품이 중간에 끊겨 보이지 않도록 한번 더 계산했습니다.</p>
+				<img src="images/code_wrap/kukka_code_1-1.png" alt="버튼/스와이프 동작 기능 코드캡쳐1"><img src="images/code_wrap/kukka_code_1-2.png" alt="버튼/스와이프 동작 기능 코드캡쳐2">
+				<video src="video/kukka_video_1.mp4" autoplay muted loop>
+					KUKKA 드래그로 스와이프 미리보기 영상<br>이 브라우저는 해당 비디오를 지원하지 않습니다.
+				</video>
+			</div>
+			<h3>2. 인스타그램 배너 무한회전<button><img src="images/open_close_arrow.png" alt="아코디언메뉴 열림버튼화살표"></button></h3>
+			<div class="code_content clear">
+				<p>setInterval 함수, clone메서드를 이용하여 해당 사진이 무한으로 회전하도록 구현했습니다.</p>
+				<img src="images/code_wrap/kukka_code_2.png" alt="인스타그램 배너 무한회전 코드캡쳐">
+				<video src="video/kukka_video_2.mp4" class="wid_45" autoplay muted loop>
+					인스타그램 배너 무한회전 기능 미리보기 영상<br>이 브라우저는 해당 비디오를 지원하지 않습니다.
+				</video>
+			</div>
+			<h3>3. 모달팝업 구현<button><img src="images/open_close_arrow.png" alt="아코디언메뉴 열림버튼화살표"></button></h3>
+			<div class="code_content clear">
+				<p>substring 메서드를 활용하여 아이콘의 classname을 비교한 후 이와 일치하는 모달팝업이 보여지도록 구현하였습니다. </p>
+				<img src="images/code_wrap/kukka_code_3.png" alt="모달팝업 코드캡쳐">
+				<video src="video/kukka_video_3.mp4" class="wid_45" autoplay muted loop>
+					모달팝업 미리보기 영상<br>이 브라우저는 해당 비디오를 지원하지 않습니다.
+				</video>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

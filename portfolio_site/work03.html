@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" >
+	<title>오송이 | 종근당건강(포트폴리오03)</title>
+	<link rel="stylesheet" href="css/workdetail.css">
+	<!-- 파비콘 -->
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<!-- 아이폰,갤럭시, 패드 적용안되면 지워버려 -->
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- 아이폰,갤럭시, 패드 적용안되면 지워버려 끝~~! -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script src="js/sub_custom.js"></script>
+</head>
+<body>
+	<header>
+		<div>
+			<a href="work02.html" class="prev_portfolio_btn"><img src="images/prev_btn_b.png" alt="이전버튼"></a>
+			<a href="work04.html" class="next_portfolio_btn"><img src="images/next_btn_b.png" alt="다음버튼"></a>
+			<a href="index.html" class="home_btn"><img src="images/logo_w.png" alt="홈버튼"></a>
+		</div>
+		<div class="main_title_wrap con_size clear">
+			<h1 class="ckd_color">CKD Healthcare</h1>
+			<div class="device_img">
+				<img src="images/ckd_device.png" alt="디바이스별 적용 화면">
+				<ul class="cross_browsing clear">
+					<li><a href="#"><img src="images/internetexplorer_icon.png" alt="인터넷 익스플로러 이미지"></a></li>
+					<li><a href="#"><img src="images/chrome_icon.png" alt="크롬 이미지"></a></li>
+					<li><a href="#"><img src="images/firefox_icon.png" alt="파이어폭스 이미지"></a></li>
+					<li><a href="#"><img src="images/safari_icon.png" alt="사파리 이미지"></a></li>
+					<li><a href="#"><img src="images/opera_icon.png" alt="오페라 이미지"></a></li>
+				</ul>
+			</div>
+			<div class="summary_wrap">
+				<p><span class="ckd_color bold">'100% 퍼블리싱'</span>으로 <br>종근당 건강의 기존사이트를 재현하여<br> <span class="ckd_color bold">'반응형 메인, 서브'</span> 페이지를 구현했습니다.</p>
+				<div class="button_wrap">
+					<a href="../ckd_site/index.html" class="view_site ckd_bg">사이트 방문</a>
+					<a href="#code_wrap" class="view_key_code">핵심 코드보기</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="information_wrap">
+		<div class="color_and_font_wrap ckd_bg">
+			<div class="con_size clear">
+				<div class="color_wrap">
+					<h2>주요색상</h2>
+					<ul class="li_3">
+						<li>
+							<div class="color_box ckd_bg"></div>
+							<p>#005295</p>
+						</li>
+						<li>
+							<div class="color_box c_ac8931"></div>
+							<p>#ac8931</p>
+						</li>
+						<li>
+							<div class="color_box c_222222"></div>
+							<p>#222222</p>
+						</li>
+					</ul>
+				</div>
+				<div class="font_wrap">
+					<h2>사용 글꼴</h2>
+					<p class="noto_sans_kr">
+						Noto Sans KR<br><span class="regular40">Noto Sans KR</span><br><span class="bold50">Noto Sans KR</span>
+					</p>
+				</div>
+			</div>	
+		</div>
+		<div class="img_keyword_wrap con_size">
+			<h2>이미지</h2>
+			<div class="img_wrap clear">
+				<div><img src="images/ckd_img1.jpg" alt="종근당 무드보드 이미지_파란계열의 운동화와 아령들"></div>
+				<div><img src="images/ckd_img2.jpg" alt="종근당 무드보드 이미지_서로 마주잡은 아이와 어른의 손"></div>
+				<div><img src="images/ckd_img3.jpg" alt="종근당 무드보드 이미지_자신감 넘치는 파란 가운을 입은 의사"></div>
+			</div>
+			<div class="keyword_wrap">
+				<h2>키워드</h2>
+				<p>#믿을 수 있는&nbsp;&nbsp;&nbsp;#건강함&nbsp;&nbsp;&nbsp;<br class="w_hidden">#가족친화적&nbsp;&nbsp;&nbsp;#깨끗함&nbsp;	&nbsp;&nbsp;#든든한</p>
+			</div>
+		</div>
+	</section>
+	<section class="ckd_bg" id="code_wrap">
+		<div class="code_wrap con_size">
+			<h2>핵심 코드 <a href="#" class="view_all_code">코드 전체보기</a></h2>
+			<h3>1. 해당 위치로 스크롤할 때만 보이는 화면구현<button><img src="images/open_close_arrow.png" alt="아코디언메뉴 열림버튼화살표"></button></h3>
+			<div class="code_content clear">
+				<p class="c_525252">scrollTop메서드를 활용하여 정수로 구성된 해당 조건문에 부합하면 숨겨져있던 화면이 드러나게 구현했습니다.<br><span class="size_7em m_hidden">단, 정수로 구현했기 때문에 수정작업이 번거로워집니다. 따라서 각 section의 offset().top 값을 활용하여 코드를 수정할 계획입니다.</span></p>
+				<img src="images/code_wrap/ckd_code_1.png" alt="해당 위치로 스크롤할 때 보이는 화면 코드캡쳐(메인배너)">
+				<video src="video/ckd_video_1.mp4" class="wid_45" autoplay muted loop>
+					해당 위치로 스크롤할 때 보이는 화면 미리보기 영상<br>이 브라우저는 해당 비디오를 지원하지 않습니다.
+				</video>
+			</div>
+			<h3>2. 다양한 제품 키워드별 분류, 갯수파악 기능<button><img src="images/open_close_arrow.png" alt="아코디언메뉴 열림버튼화살표"></button></h3>
+			<div class="code_content clear">
+				<p class="c_525252">1.&nbsp;&nbsp;각 상품마다 class를 달아 동일한 class인 경우 해당 상품이 보이게 구현했습니다.<br>2.&nbsp;&nbsp;text메서드를 활용해 활성화된 상품의 갯수와 제목명을 변경했습니다.</p>
+				<img src="images/code_wrap/ckd_code_2.png" alt="다양한 제품 키워드별 분류, 갯수파악 코드캡쳐">
+				<video src="video/ckd_video_2.mp4" class="wid_45" autoplay muted loop>
+					다양한 제품 키워드별 분류, 갯수파악 기능 미리보기 영상<br>이 브라우저는 해당 비디오를 지원하지 않습니다.
+				</video>
+			</div>
+			<h3>3. 필요에 따른 플러그인 사용 및 응용<button><img src="images/open_close_arrow.png" alt="아코디언메뉴 열림버튼화살표"></button></h3>
+			<div class="code_content clear">
+				<p class="c_525252">'swiperjs.com'의 스와이프 플러그인을 사용하였으며, 종근당건강 페이지 상 어울리는 구조로 변경하여 사용했습니다.</p>
+				<img src="images/code_wrap/ckd_code_3.png" alt="플러그인 사용 코드캡쳐">
+				<video src="video/ckd_video_3.mp4" class="wid_45" autoplay muted loop>
+					플러그인 사용 미리보기 영상<br>이 브라우저는 해당 비디오를 지원하지 않습니다.
+				</video>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
